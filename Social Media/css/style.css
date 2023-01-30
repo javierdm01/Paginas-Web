@@ -1,0 +1,150 @@
+/*En todo el body y el documento html le ponemos un tamaño al 100% de la pantalla y un degradado con un margin auto, para que se centro todo y una fuente*/
+body,html{
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(90deg,#00aff0 50%,transparent 50.01%);
+    display: flex;
+    margin: auto;
+    font-family: Roboto,sans-serif;
+}
+/*Tenemos una caja que ocupa el 100% de la pantalla con un flex para dividir las cajas hijas*/
+.caja{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 85px 0px;
+}
+/*Esta caja es la caja que contiene la informacion como el titulo, y tenemos las medidas que ocupara la caja, con un fondo que tiene poca opacidad 
+para que no se repita y lo colocamos con una tamaño y dandole posicion*/
+.caja_info{
+    width: 50%;
+    height: 500px;
+    background-image: url(../assets/img/background.png);
+    background-repeat: no-repeat;
+    background-position: 60px -490px;
+    background-size: 1050px;
+}
+/*En esta caja tenemos que ocupara el 50% de la caja padre , está alineada en el centro con un pequeño margen superior*/
+.caja_tit{
+    margin:auto;
+    color: #fefefe;
+    width: 50%;
+    margin-top: 10px;
+}
+/*Le damos tamaño a la imagen*/
+.img{
+    height: 70px;
+    width: 300px;
+}
+/*Le damos tamaño y le cambiamos la letra a la descripción*/
+.desc{
+    font-size: 35px;
+    font-family: Roboto,sans-serif;  
+}/*Le damos un tamaño a la caja de la derecha que contendra el inicio de sisión*/
+.caja_log{
+    width: 50%; 
+}
+/*En esta caja estara todos los botones y cajas para el inicio de sesion y esta en flex en columnas con un tamaño y centrado con un margen interior*/
+.caja_logger{
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    margin: auto;
+    padding: 10px;
+}
+/*Esta es la caja del tituto en la que tendremos un pequeño margen izquierdo, el texto alineado a la izq, con un tamaño, un grosor de linea y otro tipo de fuente */
+.tit_log{
+    margin: 0 0 9px;
+    text-align: left;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: RobotoBold,sans-serif;
+}
+/* Tenemos una caja para poner los botones en columna y un tamaño que ocupe lo máximo del contenido con un margen superior de -10px*/
+.caja_botones{
+    display: flex;
+    flex-direction: column;
+    width:max-content;
+    margin-top: -10px;
+}
+/*Las entradas de texto les damos un tamaño, un padding al placeholder, decimos que el fondo sea trasparente y los bordes se los redondeamos,
+ le ponemos un borde blanco con un margen inferior */
+.input{
+    width: 344px;
+    height: 50px;
+    padding: 0 16px;
+    background: transparent;
+    border-radius: 8px;
+    margin-bottom: 35px;
+    border: 1px solid #DCDFE3;
+}
+/*Cuando le utilicemos tendremos el borde en azul, el color de letra en negro y una fuente sans-serif sin linea exterior*/
+.input:focus{
+    border: 1px solid #00aff0;
+    color: black;
+    font-family: sans-serif;
+    outline: none;
+}
+/*Esta caja contiene unicamente los 2 botones de inicio y registro en columna*/
+.caja_register{
+    display: flex;
+    flex-direction: column;
+    width:max-content;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+/*Esta clase contiene los 2 botones que tendremos de fondo azul, con margen interior y exterior, con un tamaño y sin decoracion, con el texto centrado*/
+.register{
+    background-color: #00aff0;
+    padding: 7px;
+    text-align: center;
+    border-radius: 30px;
+    height: 35px;
+    color: white;
+    text-decoration: none;
+    font-family: RobotoBold;
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 300px;
+    height: 45px;
+    font-size: 17px;
+    border: 0;
+}
+/*Cuando pasemos por enciam cambiara a un color un poco más oscuro*/
+.register:hover{
+    background-color: #00b0f085;
+}
+/*Esta clase contiene los botones de google y twitter y tenemos lo mismo que en la anterior clase, lo unico que son más grandes y cambia los márgenes*/
+.botones{
+    background-color: #00aff0;
+    text-align: center;
+    border-radius: 30px;
+    height: 45px;
+    width: 350px;
+    color: white;
+    text-decoration: none;
+    font-family: RobotoBold;
+    margin-top: 15px;
+    margin-left: 0px;
+    display: flex;
+}
+/*Cambiaremos el color a más oscuro cuando pasemos por encima*/
+.botones:hover{
+    background-color: #00b0f085;
+}
+/*Esto modifica los logos de las redes sociales modificandole los margenes y el tamaño*/
+.logos{
+    margin: 5px;
+    margin-left: 10px;
+    width: 32px;
+}
+/*Los enlaces estaran alineados verticalmente y horizontalmente tendran un margen de 50px*/
+.enlaces{
+    margin: auto 50px;
+}
+/*Los enlaces le quitaremos la decoracion, el color y le cambiamos la fuente*/
+.enlace{
+    text-decoration: none;
+    color: black;
+    font-family: RobotoBold;
+}

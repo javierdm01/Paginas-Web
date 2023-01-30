@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/principal.css">
+    <link rel="stylesheet" href="../css/mensajes.css">
+    <link rel="stylesheet" href="../css/fuentes.css">
+    <link rel="shortcut icon" href="../assets/img/favicon.ico.png" type="image/x-icon">
+    <title>OverPost-Mensajes</title>
+</head>
+<body>
+    <div class="contenedor">
+        <header class="header">
+            <!--En este caso tenemos lo mismo que en principal.html menos el main que tenemos otra seccion de la página-->
+            <nav class="menu">
+                <img class="img" src="../assets/img/usuario.png" alt="icono">
+                <div class="caja_menu">
+                    <a class="bar_menu" href="principal.html">
+                        <div class="botones_menu">
+                            <img class="img_menu" src="../assets/img/casa.png" alt="">
+                            <p class="p_menu">Inicio</p> 
+                        </div>
+                    </a>
+                    <a class="bar_menu" href="./busquedad.html">
+                        <div class="botones_menu">
+                            <img class="img_menu" src="../assets/img/lupa.png" alt="">
+                            <p class="p_menu">Busquedad</p> 
+                        </div>
+                    </a>
+                    <a class="bar_menu" href="#">
+                        <div class="botones_menu boton_mensaje" >
+                            <img class="img_menu" src="../assets/img/mensajes.png" alt="">
+                            <p class="p_menu">Mensajes</p> 
+                        </div>
+                    </a>
+                    <a class="bar_menu" href="#">
+                        <div class="botones_menu">
+                            <img class="img_menu" src="../assets/img/notificaciones.png" alt="">
+                            <p class="p_menu">Notificaciones</p> 
+                        </div>
+                    </a>
+                    <a class="bar_menu" href="#">
+                        <div class="botones_menu">
+                            <img class="img_menu" src="../assets/img/bookmarck.png" alt="">
+                            <p class="p_menu">Marcadores</p> 
+                        </div>
+                    </a>
+                    <a class="bar_menu" href="#">
+                        <div class="botones_menu">
+                            <img class="img_menu" src="../assets/img/mas_opciones.png" alt="">
+                            <p class="p_menu">Más Opciones</p> 
+                        </div>
+                    </a>
+                    <a class="bar_menu" href="./principal.html#publicar">
+                        <div class="botones_menu boton_publicar">
+                            <img class="img_menu" src="../assets/img/mas_boton.png" alt="">
+                            <p class="p_menu">Publicar</p>
+                        </div>
+                    </a>
+                </div>
+            </nav>
+        </header>
+       
+        <main class="main">
+            <!--Tenemos en la parte superior una caja con un botón para volver a la página principal y el titulo de la página actual-->
+            <div class="mensaje_tit">
+                <a href="principal.html" class="mensaje_tit enlace_mensaje">
+                    <img src="../assets/img/logo_flecha.png" alt="flecha" class="flecha">
+                </a>
+                <h2 class="home"> Mensajes</h2>
+            </div>
+            <!--Por aquí tenemos una lista, y en cada una de las filas de la lista tenenmos a una persona del chat -->
+            <ul class="ul_mensaje">
+                <!--En cada mensaje tenemos una foto de perfil, el nombre, nick y el texto -->
+                <a class="enlace" href="#">
+                    <li class="li_mensaje">
+                    <img src="../assets/img/img_post/persona2.jpg" alt="" class="img_mensaje">
+                    <div class="contenido_mensaje">
+                        <div class="nom_mensaje">    
+                            <p class="nom">Andrea </p>
+                            <p class="nick">@andreita526</p>
+                        </div> 
+                        <p class="text">Siii, la ruta que seguí yo el otro día la verdad es que está ...</p>
+                    </div>
+                </li></a>
+                <a class="enlace" href="#">
+                    <li class="li_mensaje">
+                        <img src="../assets/img/img_post/perfil3.JPEG" alt="" class="img_mensaje">
+                        <div class="contenido_mensaje">
+                            <div class="nom_mensaje">    
+                                <p class="nom">Sara</p>
+                                <p class="nick">@sarainthecity</p>
+                            </div> 
+                            <p class="text">Te apetece si quedamos un tomamos un café?</p>
+                            </div>
+                    </li>
+                </a>
+                <a class="enlace" href="#">
+                    <li class="li_mensaje">
+                        <img src="../assets/img/img_post/persona1.jpg" alt="" class="img_mensaje">
+                        <div class="contenido_mensaje">
+                            <div class="nom_mensaje">    
+                                <p class="nom">Roberto Carlo</p>
+                                <p class="nick">@robertoridriguez</p>
+                            </div> 
+                            <p class="text">Si quieres podermos quedar algun dia y nos vamos a dar una ...</p>
+                        </div>
+                    </li>
+                </a>
+                <a class="enlace" href="#">
+                    <li class="li_mensaje">
+                        <img src="../assets/img/img_post/luis_enrique.png" alt="" class="img_mensaje">
+                        <div class="contenido_mensaje">
+                            <div class="nom_mensaje">    
+                                <p class="nom">Agustin</p>
+                                <p class="nick">@agus656</p>
+                            </div> 
+                            <p class="text">Estoy ocupado entrenando y trabajando, si quieres otro dia</p>
+                        </div>
+                    </li>
+                </a>
+                <a class="enlace" href="#">
+                    <li class="li_mensaje">
+                        <img src="../assets/img/img_post/perfil1.jpg" alt="" class="img_mensaje">
+                        <div class="contenido_mensaje">
+                            <div class="nom_mensaje">    
+                                <p class="nom">David</p>
+                                <p class="nick">@davidrunner</p>
+                            </div> 
+                            <p class="text">Eyy que pasa, todo bien?</p>
+                        </div>
+                    </li>
+                </a>
+            </ul>      
+        </main>
+         
+        <aside class="aside">
+            <!--Tenemos el mismo aside o menú lateral a la derecha que tenemos lo mismo que en principal.html-->
+            <a href="./busquedad.html#buscador">
+                <div class="buscador">
+                    <input class="buscador_input" type="text" name="" id="publicar" placeholder="Buscar posts">
+                </div>
+            </a>
+            <h2 class="tit_sugerencias">Sugerencias</h2>
+            <div class="caja_sugerencias">
+                <a href="#" class="a">
+                    <div class="sugerencias1 sugerencias_general">
+                        <div class="sugerencias">
+                            <img class="img_sug" src="../assets/img/img_post/perfil1.jpg" alt="">
+                            <div class="nombre">
+                                <p class="p_sug">David</p>
+                                <p class="nick_sug">@davidrunner</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="a">
+                    <div class="sugerencias2 sugerencias_general">
+                        <div class="sugerencias">
+                            <img class="img_sug" src="../assets/img/img_post/perfil2.JPEG" alt="">
+                            <div class="nombre">
+                                <p class="p_sug">Alfredo</p>
+                                <p class="nick_sug">@alfredocorredor</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="a">
+                    <div class="sugerencias3 sugerencias_general">
+                        <div class="sugerencias">
+                            <img class="img_sug" src="../assets/img/img_post/perfil3.JPEG" alt="">
+                            <div class="nombre">
+                                <p class="p_sug">Sara</p>
+                                <p class="nick_sug">@sarainthecity</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </aside>
+    </div>
+</body>
+</html>

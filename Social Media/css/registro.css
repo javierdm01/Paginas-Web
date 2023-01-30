@@ -1,0 +1,23 @@
+/*Como compartimos clases con style.css solo tenemos estas clases*/
+/*En el input modificamos el margen inferior*/
+.input{
+    margin-bottom: 20px;
+}
+/*La caja de register le damos un tamaño y un margen superior*/
+.caja_register{
+    margin-top: 15px;
+    width: 300px;
+}
+/*Al boton de registro les modificamos el tamaño*/
+.register{
+    margin-top: 0;
+    width: 300px;
+    height: 45px;
+    padding-top: 12px;
+}
+/*El texto en el que tenemos las politicas de privacidad le damos margen y tamaño de fuente*/
+.politicas{
+    margin: 0 15px;
+    margin-bottom: 20px;
+    font-size: 12px;
+}

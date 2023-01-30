@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/principal.css">
+    <link rel="stylesheet" href="../css/busquedad.css">
+    <link rel="stylesheet" href="../css/fuentes.css">
+    <link rel="shortcut icon" href="../assets/img/favicon.ico.png" type="image/x-icon">
+    <title>OverPost-Buscar</title>
+</head>
+<body class="body">
+    <!--En esta página tenemos lo mismo que en principal.html lo unico que cambiamos es el main-->
+    <div class="contenedor">
+        <header class="header">
+            <nav class="menu">
+                <img class="img" src="../assets/img/usuario.png" alt="icono">
+                <div class="caja_menu">
+                    <a class="bar_menu" href="./principal.html">
+                        <div class="botones_menu">
+                            <img class="img_menu" src="../assets/img/casa.png" alt="">
+                            <p class="p_menu">Inicio</p> 
+                        </div>
+                    </a>
+                    <a class="bar_menu" href="#">
+                        <div class="botones_menu boton">
+                            <img class="img_menu" src="../assets/img/lupa.png" alt="">
+                            <p class="p_menu">Busquedad</p> 
+                        </div>
+                    </a>
+                    <a class="bar_menu" href="./mensajes.html">
+                        <div class="botones_menu">
+                            <img class="img_menu" src="../assets/img/mensajes.png" alt="">
+                            <p class="p_menu">Mensajes</p> 
+                        </div>
+                    </a>
+                    <a class="bar_menu" href="#">
+                        <div class="botones_menu">
+                            <img class="img_menu" src="../assets/img/notificaciones.png" alt="">
+                            <p class="p_menu">Notificaciones</p> 
+                        </div>
+                    </a>
+                    <a class="bar_menu" href="#">
+                        <div class="botones_menu">
+                            <img class="img_menu" src="../assets/img/bookmarck.png" alt="">
+                            <p class="p_menu">Marcadores</p> 
+                        </div>
+                    </a>
+                    <a class="bar_menu" href="#">
+                        <div class="botones_menu">
+                            <img class="img_menu" src="../assets/img/mas_opciones.png" alt="">
+                            <p class="p_menu">Más Opciones</p> 
+                        </div>
+                    </a>
+                    <a class="bar_menu" href="principal.html#publicar">
+                        <div class="botones_menu boton_publicar">
+                            <img class="img_menu" src="../assets/img/mas_boton.png" alt="">
+                            <p class="p_menu">Publicar</p>
+                        </div>
+                    </a>
+                </div>
+            </nav>
+        </header>
+       
+        <main class="main">
+            <div class="contenedor_main">
+                <section class="section">
+                    <!--En esta página del main tenemos una caja con un input que nos sirve como buscador-->
+                    <article class="article">
+                        <div class=" caja_buscador">
+                            <input class="buscador_principal" type="text" name="buscador" id="buscador" placeholder="Realiza una busquedad">
+                        </div>
+                    </article>
+                    <!--En este segundo article lo que tenemos es una tabla con 2 columnas y dentro tenemos como targetas de sugerencias 
+                    para la busquedad de gente que tambien nos podria interesar seguir-->
+                    <article class="article">
+                        <table class="tabla_buscador">
+                            <tr class="filas">
+                                <td class="columnas">
+                                    <a class="a" href="#">
+                                        <!--Dentro de cada caja de la columnas tennemos otra caja con una clase que la comparte con otro registro css y un identificador unico
+                                        para que podamos reutilizar el codigo de la clase y modificar lo que queramos en este con el identificador-->
+                                        <div class="sugerencias_general bus1">
+                                            <div class="sugerencias" >
+                                            <!--Dentro de la caja anterior tendremos otra caja que nos coupara menos de la mitad de la otra donde se encontrara la foto de perfil y el nombre con el nick-->
+                                                <img class="img_sug" src="../assets/img/img_post/persona1.jpg" alt="">
+                                                <div class="nombre">
+                                                    <p class="p_sug">Roberto Carlo</p>
+                                                    <p class="nick_sug">@yucatan45</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </td>
+                                <td class="columnas">
+                                    <a class="a" href="#">
+                                        <div class="sugerencias_general bus2">
+                                            <div class="sugerencias" >
+                                                <img class="img_sug" src="../assets/img/img_post/persona2.jpg" alt="">
+                                                <div class="nombre">
+                                                    <p class="p_sug">Andrea</p>
+                                                    <p class="nick_sug">@andreita526</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr class="filas">
+                                <td class="columnas">
+                                    <a class="a" href="#">
+                                        <div class="sugerencias_general bus3">
+                                            <div class="sugerencias" >
+                                                <img class="img_sug" src="../assets/img/img_post/persona4.jpg" alt="">
+                                                <div class="nombre">
+                                                    <p class="p_sug">Roberto</p>
+                                                    <p class="nick_sug">@robertoridriguez</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </td>
+                                <td class="columnas">
+                                    <a class="a" href="#">
+                                        <div class="sugerencias_general bus4">
+                                            <div class="sugerencias" >
+                                                <img class="img_sug" src="../assets/img/img_post/persona6.jpg" alt="">
+                                                <div class="nombre">
+                                                    <p class="p_sug">Maria</p>
+                                                    <p class="nick_sug">@mariafroilan</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr class="filas">
+                                <td class="columnas">
+                                    <a class="a" href="#">
+                                        <div class="sugerencias_general bus5">
+                                            <div class="sugerencias" >
+                                                <img class="img_sug" src="../assets/img/img_post/persona5.jpg" alt="">
+                                                <div class="nombre">
+                                                    <p class="p_sug">Fernando</p>
+                                                    <p class="nick_sug">@ferninchu909</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </td>
+                                <td class="columnas">
+                                    <a class="a" href="#">
+                                        <div class="sugerencias_general bus6">
+                                            <div class="sugerencias" >
+                                                <img class="img_sug" src="../assets/img/img_post/luis_enrique.png" alt="">
+                                                <div class="nombre">
+                                                    <p class="p_sug">Agustin</p>
+                                                    <p class="nick_sug">@agus656</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </td>
+                            </tr>
+                            
+                        </table>
+                    </article>
+                </section>
+            </div>
+        </main>
+         
+        <aside class="aside">
+            <!--En este caso ya no  tenemos el "mini buscador" ya que estamos en el, y lo unico que cambiamos es el título-->
+            <h2 class="tit_sugerencias" id="titulo_sug">Personas que quizás conozcas</h2>
+            <div class="caja_sugerencias">
+                <a class="a" href="#">
+                    <div class="sugerencias_general sugerencias2">
+                        <div class="sugerencias">
+                            <img class="img_sug" src="../assets/img/img_post/perfil2.JPEG" alt="">
+                            <div class="nombre">
+                                <p class="p_sug">Alfredo</p>
+                                <p class="nick_sug">@alfredocorredor</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a class="a" href="#">
+                    <div class="sugerencias3 sugerencias_genera3">
+                        <div class="sugerencias">
+                            <img class="img_sug" src="../assets/img/img_post/perfil3.JPEG" alt="">
+                            <div class="nombre">
+                                <p class="p_sug">Sara</p>
+                                <p class="nick_sug">@sarainthecity</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a class="a" href="#">
+                    <div class="sugerencias_general sugerencias1">
+                        <div class="sugerencias">
+                            <img class="img_sug" src="../assets/img/img_post/perfil1.jpg" alt="">
+                            <div class="nombre">
+                                <p class="p_sug">David</p>
+                                <p class="nick_sug">@davidrunner</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                </a>
+            </div>
+        </aside>
+    </div>
+</body>
+</html>

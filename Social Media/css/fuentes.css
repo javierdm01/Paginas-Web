@@ -1,0 +1,17 @@
+/*En este css importamos 3 tipos de fuentes que guardamos en la carpeta de fonts, y son comunes para todos las páginas del proyecto
+y también tenemos un box sizing y un margin 0 para todas las páginas*/
+@font-face {
+    font-family: RobotoBold ;
+    src: url(../assets/fonts/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: Roboto ;
+    src: url(../assets/fonts/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: RobotoMedium;
+    src: url(../assets/fonts/Roboto-Medium.ttf);
+}
+*{
+    box-sizing:border-box;
+}

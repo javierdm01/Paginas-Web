@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/principal.css">
+    <link rel="stylesheet" href="../css/fuentes.css">
+    <link rel="shortcut icon" href="../assets/img/favicon.ico.png" type="image/x-icon">
+    <title>OverPost-Home</title>
+</head>
+<body>
+    <div class="contenedor"><!--Creamos un contenedor genera-->
+        <header class="header"><!--Aquí creamos la cabecera, que contendrá un menú que situaremos en la izquierda-->
+            <nav class="menu">
+                <img class="img" src="../assets/img/usuario.png" alt="icono">
+                <div class="caja_menu">
+                    <a class="bar_menu" href="#">
+                        <div class="botones_menu boton_home">
+                            <img class="img_menu" src="../assets/img/casa.png" alt="">
+                            <p class="p_menu">Inicio</p> 
+                        </div>
+                    </a>
+                    <a class="bar_menu" href="./busquedad.html">
+                        <div class="botones_menu">
+                            <img class="img_menu" src="../assets/img/lupa.png" alt="">
+                            <p class="p_menu">Busquedad</p> 
+                        </div>
+                    </a>
+                    <a class="bar_menu" href="./mensajes.html">
+                        <div class="botones_menu">
+                            <img class="img_menu" src="../assets/img/mensajes.png" alt="">
+                            <p class="p_menu">Mensajes</p> 
+                        </div>
+                    </a>
+                    <a class="bar_menu" href="#">
+                        <div class="botones_menu">
+                            <img class="img_menu" src="../assets/img/notificaciones.png" alt="">
+                            <p class="p_menu">Notificaciones</p> 
+                        </div>
+                    </a>
+                    <a class="bar_menu" href="#">
+                        <div class="botones_menu">
+                            <img class="img_menu" src="../assets/img/bookmarck.png" alt="">
+                            <p class="p_menu">Marcadores</p> 
+                        </div>
+                    </a>
+                    <a class="bar_menu" href="#">
+                        <div class="botones_menu">
+                            <img class="img_menu" src="../assets/img/mas_opciones.png" alt="">
+                            <p class="p_menu">Más Opciones</p> 
+                        </div>
+                    </a>
+                    <a class="bar_menu" href="#publicar">
+                        <div class="botones_menu boton_publicar">
+                            <img class="img_menu" src="../assets/img/mas_boton.png" alt="">
+                            <p class="p_menu">Publicar</p>
+                        </div>
+                    </a>
+                </div>
+            </nav>
+        </header>
+       
+        <main class="main"><!--Dentro del main introduciremos los posts-->
+            <div class="contenedor_main">
+                <h2 class="home">HOME</h2><!--Por aquí tenemos una pequeña zona de home y para publicar el contenido de los posts-->
+                <div class="caja_publicar">
+                    <input class="publicar" type="text" name="" id="publicar" placeholder="Describa aquí su recorrido">
+                    <div class="barra_publicar">
+                        <div class="caja_img_publicar">
+                            <img class="img_publicar" src="../assets/img/formato-texto.png" alt="formato-texto">
+                            <label for="clip">
+                                <img class="img_publicar" src="../assets/img/clip.png" alt="clip">
+                            </label>
+                            <input class="input" type="file" name="clip" id="clip">
+                            
+                            <img class="img_publicar" src="../assets/img/ubicacion.png" alt="ubicacion">
+                        </div>
+                        <a class="enlace" href="#"><p class="publicar_boton">Publicar</p></a>
+                    </div>
+                </div>
+                <!--Tenemos por aqui 2 cajas para elegir los resultados si en todos o solo para los seguidos-->
+                <div class="radio-button">
+                    <div class="label">
+                        <p class="todos">Todos</p>
+                    </div>
+                    <div  class="label">
+                        <p class="todos">Seguidos</p>
+                    </div>
+                </div>
+                <div class="contenedor_post">
+                    <section>
+                        <article>
+                    <!--En cada article tenemos un post diferente, que contiene 2 nombres, un logo, la descripción y unas fotos del recorrido-->
+                            <div class="nombre_post">
+                                <div class="usuario">
+                                    <img class="logo" src="../assets/img/logo1.png" alt="logo">
+                                    <div class="nom_usuario">
+                                        <p class="nombre_personal">Rodrigo Lozano</p>
+                                        <p class="nick">@rodrilozanillo1132</p>
+                                    </div>
+                                </div>
+                                
+                                <p class="texto_post">Carrera del día de hoy, algo intensa devido al tiempo y a la altitud de la ruta de 1.5km pero todo bien. Seguimos mejorando </p>
+                                <div class="imagenes_posts">
+                                    <img class="foto_carrera" src="../assets/img/recorrido1.jpg" alt="recorrido">
+                                    <div class="fotos">
+                                        <img class="fotos_post" src="../assets/img/img_post/ciudad1.JPEG" alt="recorrido">
+                                        <img class="fotos_post" src="../assets/img/img_post/ciudad2.jpeg" alt="recorrido">
+                                    </div>
+                                </div>
+                                <a class="bar_mas_enlace" href="#">
+                                    <p class="p_barmas">Ver Más</p>
+                                </a>
+                            </div>
+                        </article>
+                        <article>
+                            <div class="nombre_post">
+                                <div class="usuario">
+                                    <img class="logo" src="../assets/img/logo2.png" alt="logo">
+                                    <div class="nom_usuario">
+                                        <p class="nombre_personal">Alberto Escalona</p>
+                                        <p class="nick">@1978escalonalberto</p>
+                                    </div>
+                                </div>
+                                
+                                <p class="texto_post">Carrera de hoy hecha✔✔.<br> Un dia un poco malillo para salis a correr, pero aun así se ha podido superar en las calles de Toledo 7,1Km. A POR MÁSSSSS</p>
+                                <div class="imagenes_posts">
+                                    <img class="foto_carrera" src="../assets/img/recorrido2.png" alt="recorrido">
+                                    <div class="fotos">
+                                        <img class="fotos_post" src="../assets/img/img_post/ciudad3.JPEG" alt="recorrido">
+                                        <img class="fotos_post" src="../assets/img/img_post/ciudad4.JPEG" alt="recorrido">
+                                    </div>
+                                </div>
+                                <a class="bar_mas_enlace" href="#">
+                                    <p class="p_barmas">Ver Más</p>
+                                </a>
+                            </div>
+                        </article>
+                        <article>
+                            <div class="nombre_post">
+                                <div class="usuario">
+                                    <img class="logo" src="../assets/img/logo3.png" alt="logo">
+                                    <div class="nom_usuario">
+                                        <p class="nombre_personal">Alberto Contador</p>
+                                        <p class="nick">@contadoralberto1965</p>
+                                    </div>
+                                </div>
+                                
+                                <p class="texto_post">Hoy tenemos un recorrido más tranquilo por la localidad de Los Yébenes, pasando por parques que nos dejan las siguientes fotos: </p>
+                                <div class="imagenes_posts">
+                                    <img class="foto_carrera" src="../assets/img/recorrido3.PNG" alt="recorrido">
+                                    <div class="fotos">
+                                        <img class="fotos_post" src="../assets/img/img_post/fuente1.JPEG" alt="recorrido">
+                                        <img class="fotos_post" src="../assets/img/img_post/parque1.JPEG" alt="recorrido">
+                                    </div>
+                                </div>
+                                <a class="bar_mas_enlace" href="#">
+                                    <p class="p_barmas">Ver Más</p>
+                                </a>
+                            </div>
+                        </article>
+                        <article>
+                            <div class="nombre_post">
+                                <div class="usuario">
+                                    <img class="logo" src="../assets/img/logo4.png" alt="logo">
+                                    <div class="nom_usuario">
+                                        <p class="nombre_personal">Rodrigo Lozano</p>
+                                        <p class="nick">@rodrilozanillo1132</p>
+                                    </div>
+                                </div>
+                                
+                                <p class="texto_post">Carrera del día de hoy, algo intensa devido al tiempo y a la altitud de la ruta de 1.5km pero todo bien. Seguimos mejorando </p>
+                                <div class="imagenes_posts">
+                                    <img class="foto_carrera" src="../assets/img/recorrido4.PNG" alt="recorrido">
+                                    <div class="fotos">
+                                        <img class="fotos_post" src="../assets/img/img_post/campo1.JPEG" alt="recorrido">
+                                        <img class="fotos_post" src="../assets/img/img_post/campo2.jpeg" alt="recorrido">
+                                    </div>
+                                </div>
+                                <a class="bar_mas_enlace" href="#">
+                                    <p class="p_barmas">Ver Más</p>
+                                </a>
+                            </div>
+                        </article>
+                    </section>
+                </div>            
+            </div>
+        </main>
+          <!--En el lado derecho tenemos un aside, donde tenemos un minibuscador que nos lleva al buscador principal y una pagina de sugeridos
+        con varios perfiles-->
+        <aside class="aside">
+            <a href="./busquedad.html#buscador">
+                <div class="buscador">
+                    <input class="buscador_input" type="text" name="" id="publicar" placeholder="Buscar posts">
+                </div>
+            </a>
+            <h2 class="tit_sugerencias">Sugerencias</h2>
+            <div class="caja_sugerencias">
+                <a href="#" class="a">
+                    <div class="sugerencias1 sugerencias_general" >
+                        <div class="sugerencias">
+                            <img class="img_sug" src="../assets/img/img_post/perfil1.jpg" alt="">
+                            <div class="nombre">
+                                <p class="p_sug">David</p>
+                                <p class="nick_sug">@davidrunner</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="a">
+                    <div class="sugerencias2 sugerencias_general">
+                        <div class="sugerencias">
+                            <img class="img_sug" src="../assets/img/img_post/perfil2.JPEG" alt="">
+                            <div class="nombre">
+                                <p class="p_sug">Alfredo</p>
+                                <p class="nick_sug">@alfredocorredor</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="a">
+                    <div class="sugerencias3 sugerencias_general">
+                        <div class="sugerencias">
+                            <img class="img_sug" src="../assets/img/img_post/perfil3.JPEG" alt="">
+                            <div class="nombre">
+                                <p class="p_sug">Sara</p>
+                                <p class="nick_sug">@sarainthecity</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </aside>
+    </div>
+</body>
+</html>

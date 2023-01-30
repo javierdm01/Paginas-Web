@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/fuentes.css">
+    <link rel="shortcut icon" href="../assets/img/favicon.ico.png" type="image/x-icon">
+    <title>OverPost</title>
+</head>
+<body class="body">
+    <div class="caja">
+        <!--Tenemos una caja principal que contendra toda la página-->
+        <div class="caja_info">
+            <!--Dentro de esta tendremos 2 cajas, una a cada lado, en una estara el titulo y la otra para iniciar sesión-->
+            <div class="caja_tit">
+                <img class="img" src="./assets/img/logo.png" alt="logo">
+                <h2 class="desc">Registrate y comparte tus recorridos con tus amigos</h2>
+            </div>
+        </div>
+        <div class="caja_log">
+            <div class="caja_logger">
+                <!--Aqui tenemos 2 input para iniciar sesion, un boton para iniciar, registrar o iniciar sesion con redes sociales-->
+                <h2 class="tit_log">Iniciar Sesión</h2>
+                <form action="./pages/principal.html" method="post">
+                    <div class="caja_input">
+                        <input  class="input" placeholder="Correo" type="email" required>
+                        <input class="input" placeholder="Contraseña" type="password" required>
+                    </div>
+                    <div class="caja_botones">
+                        <div class="caja_register">
+                    <!--El boton de inicio nos lleva a la página web principal y el de registro tenemos un formulario de registro.-->
+                            <input type="submit" value="Log In" class="register">
+                            <a href="./pages/registro.html"><input type="button" value="Register" class="register"></a>
+                        </div>
+                        <a class="botones" href="https://admin.google.com/" target="_blank"><img class="logos" src="./assets/img/logo_google.png" alt=""><p class="enlaces"> Inicia sesion con Google</p></a>
+                        <a class="botones" href="https://twitter.com/login" target="_blank"><img class="logos" src="./assets/img/logo_twitter.png" alt=""><p class="enlaces">Inicia sesión con Twitter</p></a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

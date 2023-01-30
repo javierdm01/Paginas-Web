@@ -1,0 +1,74 @@
+/*La caja del menú que contine mensajes la cambiamos de color para simular que esta seleccionada*/
+.boton_mensaje{
+    background-color: #d2e8ff;
+}
+/*Tamaño de la flecha para ir para detras*/
+.flecha{
+    width: 29px;
+    height: 31px;
+    margin-top:14px;
+    padding: 5px;
+}
+/*Cuando te situas por encima de la flecha*/
+.flecha:hover{
+    background-color: #d2e8ff;
+    border-radius: 16px;
+}
+/*Caja del titulo de mensaje con la flecha*/
+.mensaje_tit{
+    display: flex;
+    padding-left: 15px;
+    margin-bottom: 25px ;
+    border-bottom: 1px solid #90a1b639;
+}
+/*Esta es el texto de los mensajes*/
+.home{
+    margin-left: 25px;
+    font-size: 19px;
+    margin-top: 18px;
+    border: 0;
+}
+/*El enlace del mensaje*/
+.enlace_mensaje{
+    border-bottom: 0;
+}
+/*Centramos las listas horizontalmente*/
+.ul_mensaje{
+    padding: 0 auto;
+}
+/*le damos margen interno 0, flex y le asignamos un color de fondo, con los border redondeados*/
+.li_mensaje{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    background-color: #90a1b639;
+    border-radius: 55px;
+    margin: 15px 7% 18px 0;
+    box-shadow: 5px 5px 0 #90a1b6d5; 
+}
+/*El logo de la foto de perfil en los mensajes le hacemos redondo con los bordees en blanco y con un margen*/
+.img_mensaje{
+    border: 3px solid white;
+    border-radius: 150px;
+    width: 75px;
+    height: 75px;
+    margin: auto 15px;
+}
+/*Un flex a la caja del nombre con el nick*/
+.nom_mensaje{
+    display: flex;
+}
+/*Margen derecho y tamaño al nombre*/
+.nom{
+    margin-right: 15px;
+    font-size: 16px;
+}
+/*Margen superior al nick*/
+.nick{
+    margin-top: 17px;
+}
+/*Margen superior al texto y una fuente diferente a la anterior*/
+.text{
+    margin-top: -5px;
+    font-family: Roboto;
+}

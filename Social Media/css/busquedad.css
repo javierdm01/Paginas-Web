@@ -1,0 +1,58 @@
+/*En el buscador principal,le quitamos el subrayado, le redondeamos el border, la letra color negro con la fuente Roboto
+en negrita con un ancho y alto a la caja, un tamaño del texto, margen interno, border gris, texto centrado y margenes exteriores.*/
+.buscador_principal{
+    text-decoration: none;
+    border-radius:50px;
+    color: black;
+    font-family: Roboto;
+    font-weight: bolder;
+    width: 80%;
+    height: 50px;
+    font-size: 15px;
+    padding-left: 15px;
+    padding-top: -5px;
+    border: 1px solid rgba(138,150,163,.25) ;
+    text-align: center;
+    margin: 15px 10%;
+}
+/*Le quitamos el borde exterior del input al utilizarlo*/
+.buscador_principal:focus{
+    outline: none;
+}
+/*Le damos un color de fondo unicamente el elemento con identificador boton*/
+.boton{
+    background-color: #d2e8ff;
+}
+/*Le damos un margen interno a las columnas*/
+.columnas{
+    padding: 5px 13px 0 13px;
+}
+/*Centramos horizontalmente la tabla*/
+.tabla_buscador{
+    margin: 0 auto;
+}
+/*Cada id cambia el fondo y en algunos la posicion del fondo */
+.bus1{
+    background-image: url(../assets/img/img_post/fondo5.png);    
+}
+.bus2{
+    background-image: url(../assets/img/img_post/fondo6.jpeg);
+}
+.bus3{
+    background-image: url(../assets/img/img_post/fondo7.jpg);
+    background-position: 15px;
+}
+.bus4{
+    background-image: url(../assets/img/img_post/fondo8.jpg);
+}
+.bus5{
+    background-image: url(../assets/img/img_post/fondo3.jpg);
+    background-position: 0 150px ;
+}
+.bus6{
+    background-image: url(../assets/img/img_post/fondo4.jpg);
+    background-position: 0 160px ;
+}
+.titulo_sug{
+    font-size: 21px;
+}

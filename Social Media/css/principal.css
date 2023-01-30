@@ -1,0 +1,347 @@
+/*Le damos un display flex al contenedor principal, un tamaño del 100%, le damos una fuente y justificamos el flex.*/
+.contenedor{
+    display: flex;
+    width: 100%;
+    font-family: RobotoBold,sans-serif;
+    justify-items: flex-end;
+}
+/*A la cabecera le asignamos un flex en columna le damos un borde derecho y ajustamos el tamaño del flex a 0.55*/
+.header{
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid rgba(138,150,163,.25);
+    flex: 0.55;
+}
+/*Ajustamos la clase img con un alto y ancho y un margen de 25px*/
+.img{
+    width: 42px;
+    height: 38px;
+    margin: 25px;
+}
+/*Los enlaces del menú, les damos color y le quitamos el subrayado*/
+.bar_menu{
+    text-decoration: none;
+    color: #8a96a3;
+}
+/*Los logos del menú, le damos un tamaño, un margen centrado verticalmente y horizontal de 15px y color de letra gris*/
+.img_menu{
+    width: 33px;
+    height: 33px;
+    margin: auto 15px;
+    color: rgba(138,150,163,.25);
+}
+/*Los botones del menú, les damos un flex, centrado horizontalmente, redondeamos los bordes y le damos tamaño y un margen inferior*/
+.botones_menu{
+    display: flex;
+    margin: 0 auto;
+    border-radius:35px;
+    margin-bottom: 20px;
+    width: 230px;
+}
+/*Mientras pasamos por encima cambia a color azul y el fondo en azul claro*/
+.botones_menu:hover{
+    color:#007aff;
+    background-color: #d2e8ff;
+}
+/*Al boton home, le ponemos un fondo azul claro*/
+.boton_home{
+    background-color: #d2e8ff;
+}
+/*Le damos márgen izquierdo al texto del menú*/
+.p_menu{
+    margin-left: 15px;
+}
+/*Al boton publicar unicamente, le damos flex alineado al fin, con un color de fondo y de letra, tamaño y margen interno izq*/
+.boton_publicar{
+    display: flex;
+    align-items: flex-end;
+    background-color:#007bffb0 ;
+    color: white;
+    font-size: 17px;
+    padding-left: 15px;
+}
+/*Cuando pasamos por encima se clarece un poco*/
+.boton_publicar:hover{
+    background-color: #007bff;
+    color: white;
+}
+/*A la caja del main le damos un ancho del 20% y un tamaño de flex de 1.4 con un borde derecho gris*/
+.main{
+    width: 20%;
+    flex: 1.4;
+    border-right: 1px solid rgba(138,150,163,.25);
+}
+/*A la caja home, le damos un borde gris, un margen interno izquierdo y abajo sin margen exterior inferior*/
+.home{
+    padding-left: 16px;
+    border-bottom: 1px solid rgba(138,150,163,.25);
+    padding-bottom: 17px;
+    margin-bottom: 0;
+}
+/*A la caja publicar le eliminamos el subrayado, el borde, el texto con letra negra y una fuente y en negrita, con margenes interior y exterior 
+y definimos una altura de ancho y alto*/
+.publicar{
+    text-decoration: none;
+    border: 0 ;
+    color: black;
+    font-family: Roboto;
+    font-weight: bolder;
+    height: 90px;
+    width:100%;
+    font-size: 15px;
+    padding-left: 15px;
+    padding-top: -5px;
+}
+/*Cuando pasemos por encima eliminamos la linea exterior del input*/
+.publicar:focus{
+    outline: none;
+    
+}
+/*Le damos un borde inferior*/
+.caja_publicar{
+    border-bottom: 1px solid rgba(138,150,163,.25);
+}
+/*A las imagenes de los iconos de publicar les damos un tamaño y un márgen*/
+.img_publicar{
+    width: 20px;
+    margin: 25px 12px ;
+}
+/*Le damos un display none al input, para quitar el diseño por defecto y poder ponerlo como un botón con imagen*/
+.input{
+    display: none;
+}
+/*Esta es la barra inferior de la zona de publicar*/
+.barra_publicar{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    border-bottom: 1px solid rgba(138,150,163,.25);
+    padding-bottom: 10px;
+    padding-left: 15px;
+}
+/*Este es boton principal de publicar*/
+.publicar_boton{
+    text-align: center;
+    font-size: 17px;
+    margin-right: 35px;
+    width: 100px;
+    height: 35px;
+    padding: 5px;
+    border-radius: 150px;
+    background-color: #007bff;
+    color: white;
+
+}
+/*La caja del aside, le damos un tamaño del 20% y un flex de 0.7 con el texto centrado*/
+.aside{
+    width: 20%;
+    flex: 0.7;
+    text-align: center;
+}
+/*Las cajas que deberian de ser radio button, tienen un flex y un margen de 15px*/
+.radio-button{
+    display: flex;
+    margin: 15px;
+}
+/*A esta caja llamada label tenemos un flex, fuente y un borde redondeado con un fondo y margenes y tamaño*/
+.label{
+    display: flex;
+    font-family: RobotoMedium;
+    border-radius: 25px;
+    background-color: rgba(138,150,163,.25);
+    margin-right: 25px;
+    padding:0 5px;
+    width: 85px;
+}
+/*Al texto de todos tenemos un margen verticalmente y centrado horizontalmente*/
+.todos{
+    margin: 5px auto;
+}
+/*Cuando pasamos por encima de estas cajas se nos cambia el color de fondo de la misma*/
+.label:hover{
+    background-color: #98c7f9;
+}
+/*El contenedor que tiene el post tiene un margen interno y esta centrado horizontalmente*/
+.contenedor_post{
+    padding: 15px;
+    margin: 0 auto;
+}
+/*La caja del usuario tiene un flex*/
+.usuario{
+    display: flex;
+}
+/*La imagen de usuario tendra unas medidas de alto y ancho, con margenes un borde redondeado azul*/
+.logo{
+    width: 48px;
+    height: 48px;
+    margin-right: 15px;
+    border:3px solid #007bff3f;
+    border-radius: 150px;
+    padding: 0;
+    margin-top: 5px;
+}
+/*El nombre de usuario tendra un ancho de linea de 5px, una sangría de 5px, ukna fuente y un tamaño*/
+.nom_usuario{
+    line-height: 5px;
+    width: 150px;
+    text-indent: 5px;
+    font-family: RobotoMedium;
+}
+/*Aumentamos el tamaño de la letra del nombre*/
+.nombre_personal{
+    font-size: 16px;
+}
+/*El nick le damos tamaño y color */
+.nick{
+    font-size: 14px;
+    color: #8a96a3;
+}
+/*El texto del post le cambiamos la letra, el grosor de linea, el tamaño de fuente y le ponemos margen vertical y centrado horizontalmente*/
+.texto_post{
+    font-family: Roboto,sans-serif;
+    line-height: 24px;
+    font-size: 16px;
+    margin: 15px auto;
+}
+/*Esta es la caja que contiene todas las imagenes del post
+esta tiene un flex, y esta centrado horizontalmente*/
+.imagenes_posts{
+    display: flex;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+/*Esta es la imagen del recorrido, y le damos uon margen y un tamaño de ancho del 60%*/
+.foto_carrera{
+    width: 60%;
+    margin: 5px;
+}
+/*A las fotos le damos un tamaño y un margen */
+.fotos_post{
+    width: 85%;
+    margin: 5px auto;
+}
+/*Le damos un tamaño a la caja que va a contener las demas fotos y unos margenes*/
+.fotos{
+    display: flex;
+    margin: auto 0;
+    flex-direction: column;
+    margin-left: 25px;
+}
+/*Esta es la caja del VER MAS y tiene quitado la decoración y con color blanco el texto*/
+.bar_mas_enlace{
+    text-decoration: none;
+    color: white;
+}
+/*El parrafo está centrado con margenes internos y externo superior con un color azul de fondo*/
+.p_barmas{
+    text-align: center;
+    padding: 10px;
+    margin-top: 5px;
+    background-color: #007bff;
+}
+/*Esta es la clase de la caja del buscador del aside, y tiene un margen superior*/
+.buscador{
+   margin-top: 15px;
+}
+/* Este es el pequeño buscador del aside, y le quitamos el subrayado del enlace, lo redondeamos un poco, letra negra y negrita con una fuete diferente
+y un tamaño de 15px con margenes internos y externos y un borde gris */
+.buscador_input{
+    text-decoration: none;
+    border-radius: 8px;
+    color: black;
+    font-family: Roboto;
+    font-weight: bolder;
+    margin: 0 auto;
+    width: 250px;
+    height: 50px;
+    font-size: 15px;
+    padding-left: 15px;
+    padding-top: -5px;
+    border: 1px solid rgba(138,150,163,.25) ;
+}
+/*Cuando se utilice el buscador no tendra linea exterior*/
+.buscador_input:focus{
+    outline: none;
+}
+/*El titulo de las sugerencias tiene un margen superior*/
+.tit_sugerencias{
+    margin-top: 55px;
+}
+/*La caja que contiene toda las sugerencias tiene un ancho y un alto, centrado horizontalmente y con el texto alineado a la izquierda*/
+.caja_sugerencias{
+    width: 300px;
+    height: 443px;
+    margin: 0 auto;
+    text-align: left;
+}
+.sugerencias_general{
+    margin: 25px 0;
+    border-radius: 15px;
+    width: 320px;
+    height: 120px;
+    border: 1px solid white;
+    background-size:cover;
+    background-position: 0 ;
+}
+/*La primera caja de sugerencias */
+.sugerencias1{
+    background-image: url(../assets/img/img_post/back1.jpg);
+}
+/*Segunda caja de sugerencias*/
+.sugerencias2{
+    background-image: url(../assets/img/img_post/back2.jpeg);
+}
+/*Tercera caja de sugerencias*/
+.sugerencias3{
+    background-image: url(../assets/img/img_post/back3.jpeg);
+    background-position: 15px;
+}
+/*Este es el recuadro del nombre y la foto de perfil de las cajas de sugerencias*/
+.sugerencias{
+    background-color: #729dcba0;
+    color: white;
+    border-radius: 15px;
+    width: 320px;
+    height: 50px;
+    margin-top: 70px;
+    font-family: RobotoMedium;
+    padding-left: 10px;
+    display: flex;
+}
+/*Cuando pasas por encima de cualquier cuadro de sugerencias*/
+.sugerencias_general:hover{
+    opacity: 0.8;
+}
+/*El texto  de las sugerencias*/
+.p_sug{
+    font-size: 18px;
+    margin-top: 3px;
+    line-height: 23px;
+}
+/*El apodo de las sugerencias*/
+.nick_sug{
+    font-size: 14px;
+    margin-top: -15px;
+}
+/*La imagen de perfil de sugerencias*/
+.img_sug{
+    width: 95px;
+    height: 95px;
+    border: 3px solid white;
+    margin-top: -55px;
+    border-radius: 150px;
+}
+/*El nombre de sugerencias*/
+.nombre{
+    margin-left: 20px;
+}/*Los enlaces de los textos y las cajas con el texto blanco*/
+.a{
+    text-decoration: none;
+}
+/*Los enlaces de los textos y las cajas con texto en negro*/
+.enlace{
+    text-decoration: none;
+    color: black;
+}
+
+
