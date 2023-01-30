@@ -1,0 +1,45 @@
+.main{
+    margin-top: 50px ;
+    /*Alejar el main nos pixeles*/
+}
+.about{
+    margin: 50px ;
+    height: 620px;
+    /*Crear un margen y un tamaño de alto a la caja de la info about */
+}
+.img_about{
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    margin-top: 50px;
+    /*Ponemos la img como elemento en línea y ajustamos tamaño y alineación*/
+}
+.tit_about{
+    display: inline-block;
+    vertical-align: top;
+    text-transform: uppercase;
+    font-family: productos;
+    font-size: 30px;
+    width: 400px;
+    height: 200px;
+    margin-top: 13%;
+    margin-left: 6%;
+    letter-spacing: 5px;
+/*Asignamos como elemento en línea alineado arriba, ponemos el texto en mayuscula, una fuente
+un tamaño de fuente, un tamaño unos márgenes y un espaciado entre letras*/
+}
+.text_about{
+    font-family: texto;
+    text-align: left;
+    width: 500px;
+    margin-left: 46.5%;
+    margin-top: -24%;
+    font-size: 16px;
+    line-height: 30px;
+    color: #0a0101bf;
+    letter-spacing: 1.5px;
+/*Ponemos el texto en mayuscula, una fuente, una alineacion al texto, un espaciado entre lineas,
+un color, un tamaño de fuente, un tamaño unos márgenes y un espaciado entre letras*/
+    
+}
+

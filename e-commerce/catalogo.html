@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" class="enlaces_archivos" href="./css/style.css">
+    <link rel="stylesheet" href="./css/catalogo.css">
+    <title>Catálogo - hoodiesbrand</title>
+</head>
+
+<body>
+    <!--Creamos una cabecera, con un titulo con su caja y un menu con sus respectivos enlaces,
+ tambien añadimos unos botones de navegacion-->
+    <header class="cabecera">
+        <div class="caja_titulo">
+            <h1 class="titulo">
+                <a class="a_tit" href="./index.html">hoodiesbrand</a>
+            </h1>
+        </div>
+        <nav class="menu">
+            
+            <a href="#" class="inicio">Inicio</a>
+            <a href="./catalogo.html" class="catalogo" >Catálogo</a>
+            <a href="./nosotros.html" class="nosotros" >Nosotros</a>
+            
+        </nav>
+        <div>
+            <button class="boton_lupa"><img class="lupa" src="./img/lupa_busquedad.png" alt="lupa"></button>
+            <button class="boton_usuario"><img class="usuario" src="./img/usuario.png" alt="usuario"></button>
+            <button class="boton_carrito"><img class="carrito" src="./img/carrito.png" alt="carrito"></button>
+            
+        </div>
+    </header>
+    <main class="main">
+<!--Creamos un contenedor con una seccion y un articulos en los que tenemos un producto diferente dentro de otro contenedor-->
+        <section class="section1">
+<!--Tenemos un titulo con una pequeña lista desplegable-->
+            <h2 class="productos">Productos</h2>
+            <nav>
+                <p class="filtrar"><img class="img_filtrar" src="./img/filtrar.png" alt="">Filtrar y ordenar</p>
+                <p class="ordenar_por">Ordenar por: 
+                    <select name="ordernar" id="ordenar">
+                        <option value="vendidos">Más vendidos</option>
+                        <option value="alfabeticamente">Alfabeticamente de A - Z</option>
+                        <option value="menor">Precio: menor a mayor</option>
+                        <option value="mayor">Precio: mayor a menor</option>
+                    </select>
+                </p>
+            </nav>
+<!--Creamos un contendor,y añadimos la imagen, titulo y precio del producto a cada uno de estos-->
+            <article class="article1">
+                <div class="sudadera1">
+                    <img class="img_sudadera1" src="./img/sudadera1.webp" alt="sudadera1">
+                    <p class="nom_sudadera1"> Hoodie "Basic Chocolate" </p>
+                    <p class="precio_sudadera1"> €29,99 EUR</p>
+                </div>
+                <div class="sudadera2">
+                    <img class="img_sudadera2" src="./img/sudadera2.webp" alt="sudadera2">
+                    <p class="nom_sudadera2"> Hoodie "Zip Basic" </p>
+                    <p class="precio_sudadera2"> €29,99 EUR</p>
+                </div>
+                <div class="sudadera3">
+                    <img class="img_sudadera3" src="./img/sudadera3.webp" alt="sudadera3">
+                    <p class="nom_sudadera3"> Hoodie "Basic Cream"</p>
+                    <p class="precio_sudadera3"> €49,99 EUR</p>
+                </div>
+            </article>
+        </section>
+    </main>
+<!--Creamos un pie de página en el que añadimos un apartado de informacion de devoluciones,
+ enlaces a redes sociales, un contacto con correo y un texto reservado a los derechos de autor-->    
+    <footer class="footer">
+        <div class="devoluciones">
+            <h3 class="">Nuestras ventajas</h3>
+            <ul class="lista_dev">
+                <li class="dev_list">Envios y devoluciones gratuitas</li>
+                <li class="dev_list">Devoluciones gratuitas</li>
+                <li class="dev_list">Derecho de devoluciones de 30 dias</li>
+            </ul>
+        </div>
+
+        <a href="https:\\instragram.com" target="_blank">
+            <img class="logo_ig" src="./img/logo_instagram.png" alt="instragram">
+        </a>
+        <a href="https:\\twitter.com" target="_blank">
+            <img class="logo_twitter" src="./img/logo_twitter.png" alt="twitter">
+        </a>
+        <p class="p_correo"><a class="correo" href="mailto:daw_javierdiaz@riberadeltajo.es">Contacta con nosotros</a></p>
+        <p class="derechos_footer">© Reservados los derechos de Javier Diaz Molina</p>
+        
+    </footer>
+    
+
+</body>
+
+</html>

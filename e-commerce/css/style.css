@@ -1,0 +1,223 @@
+*{
+    box-sizing: border-box;
+/*Asignamos que el borde no ocupe un espacio más*/
+}
+@font-face {
+    font-family:productos ;
+    src: url(../fuentes/Oswald-SemiBold.ttf);
+/*Creamos una fuente llamada productos*/
+}
+@font-face {
+    font-family: texto;
+    src: url(../fuentes/Linotype\ Syntax\ Serif\ W01\ Rg.ttf);
+/*Creamos una fuente llamada texto*/
+}
+@font-face {
+    font-family: hoodies;
+    src: url(../fuentes/interstate.ttf);
+/*Creamos una fuente llamada hoodies*/
+}
+body{
+    background-color: #F9F8F1;
+    font-family: texto, 'Times New Roman', Times, serif;
+    color: black;
+/*Asignamos a todo el bodoy un color de fondo, una fuente predeterminada y un color de letra*/
+}
+.cabecera{
+        border-top: 1px  solid #F7F7F7;
+        border-bottom: 1spx solid #F7F7F7;
+        width: 100€;
+        height: 91px;
+        margin-top: 30px;
+/*Creamos 2 lineas color crema arriba y abajo, asignamos un tamaño y un margen superior*/
+}
+.caja_titulo{
+    vertical-align: top;
+    display: inline-block;
+    padding: 7.5px;
+    padding-top: 0;
+/*Asignamos la caja como un elemento en linea, alineado arriba, con un margen interior */
+}
+.titulo{
+    font-family: hoodies, Times New Roman, Times, serif;
+    font-size: 38px;
+    color: #0a0101bf;
+    margin-left: 50px;
+/*Ponemos una fuente, un tamaño y un color al texto, con un margen izquierdo*/
+}
+.a_tit{
+    color: #0a0101bf;
+    text-decoration: none;
+/*Asignamos al enlace un color y quitamos el subrayado*/
+}
+.menu{
+    vertical-align: top;
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 29px;
+/*Ponemos la caja en linea, alineado arriba y con margenes izquierdo y superior */
+}
+.inicio{
+    display: inline-block;
+    text-decoration: none;
+    padding: 9px;  
+    color: #0a0101bf;
+/*Ponemos la caja en linea, sin decoracion, con un color y con margen interior */
+}
+.inicio:hover{
+    display: inline-block;
+    text-decoration:underline;
+    padding: 9px;  
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+/*Ponemos la caja en linea, subrayado, con color, margen interior, un tamaño de fuente y 
+negrita cuando te situes por encima */
+}
+.catalogo{
+    display: inline-block;
+    text-decoration: none;
+    padding: 9px;    
+    color:#0a0101bf;
+/*Ponemos la caja en linea, sin decoracion, con un color y con margen interior */
+}
+.catalogo:hover{
+    display: inline-block;
+    text-decoration:underline;
+    padding: 9px;  
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+/*Ponemos la caja en linea, subrayado, con color, margen interior, un tamaño de fuente y 
+negrita cuando te situes por encima */
+}
+.nosotros{
+    text-decoration: none;
+    display: inline-block;
+    padding: 9px;    
+    color: #0a0101bf    ;
+/*Ponemos la caja en linea, sin decoracion, con un color y con margen interior */
+}
+.nosotros:hover{
+    display: inline-block;
+    text-decoration:underline;
+    padding: 9px;  
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+/*Ponemos la caja en linea, subrayado, con color, margen interior, un tamaño de fuente y 
+negrita cuando te situes por encima */
+}
+.boton_lupa{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 87%;
+    width: 40px;
+    margin-top: -69px;
+    border: none;
+    background-color:#F9F8F1;
+/*Asignamos elemento en bloque, alineado arriba, color de fondo, un tamaño, margen y sin borde el botón*/
+}
+.lupa{
+    margin:1.5px;
+    margin-top: 5px;
+    width: 24px;
+/*Le ponemos un margen y un tamaño*/
+    
+}
+.lupa:hover{
+    margin:1.5px;
+    margin-top: 5px;
+    width: 35px;
+/*Le ponemos un margen y un tamaño cuando se situa por encima*/
+}
+.boton_usuario{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 91%;
+    width: 40px;
+    margin-top: -87px;
+    border: none;
+    background-color:#F9F8F1;
+/*Asignamos elemento en bloque, alineado arriba, color de fondo, un tamaño, margen y sin borde el botón*/
+}
+.usuario{
+    margin-top: 3px;
+    width: 25px;
+
+/*Le ponemos un margen y un tamaño*/
+}
+.usuario:hover{
+    margin-top: 3px;
+    width: 35px;
+/*Le ponemos un margen y un tamaño cuando se situa por encima*/
+}
+.boton_carrito{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 95%;
+    width: 40px;
+    margin-top: -106px;
+    border: none;
+    background-color:#F9F8F1;
+/*Asignamos elemento en bloque, alineado arriba, color de fondo, un tamaño, margen y sin borde el botón*/
+}
+.carrito{
+    margin-top: 3px;
+    width: 25px;
+
+/*Le ponemos un margen y un tamaño*/
+}
+.carrito:hover{
+    margin-top: 3px;
+    width: 35px;
+/*Le ponemos un margen y un tamaño cuando se situa por encima*/
+}
+.footer{
+    text-align: center;
+    margin-top: 10%;
+    height: 250px;
+/*Alineamos al centro, con una altura y un márgen superior el pie de página*/
+}
+.devoluciones{
+    margin-top: 300px;
+    width: 250px;
+    height: 120px;
+    text-align: center;
+    font-size: 13px;
+    margin: 0 auto;
+/*Le añadimos un márgenes, un tamaño de fuente y de caja, y alineamos al 0*/ 
+    
+}
+.lista_dev{
+    list-style: none;
+    padding-left: 0px;
+/*Quitamos los estilos a la lista*/
+}
+.logo_ig{
+    margin-top: 18px;
+    width: 30px;
+/*Añadimos un margen superior y un tamaño*/
+}
+.logo_twitter{
+    width: 30px;
+/*Le asignamos un tamaño*/
+}
+.p_correo{
+    width: 250px;
+    margin-top: 85px;
+    font-size: 13px;
+    margin: 0 auto; 
+/*Le damos un tamaño, unos margenes y un tamaño de fuente*/
+}
+.correo{
+    text-decoration: none;
+    color: black;
+    font-weight: bold; 
+/*Quitamos la decoraciones, le damos un color y lo ponemos en negrita*/
+}
+.derechos_footer{
+    font-size: 12px;
+    margin-top: 15px;
+/*Asignamos un tamaño de fuente y un margen superior*/
+}

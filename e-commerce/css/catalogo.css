@@ -1,0 +1,166 @@
+.main{
+    height: 820px;
+/*Asignamos una altura al contenedor*/
+}
+.productos{
+    font-size: 55px;
+    text-indent: 55px;
+    font-family: productos, 'Times New Roman', Times, serif;
+    margin-top: 40px;
+/*Ponemos un tamaño de fuente, un tamaño de sangría, un márgen y una fuente*/
+}
+.img_filtrar{
+    width: 35px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: -7px;
+/*Asignamos un tamaño, un elemento en línea y alineado arriba y un márgen*/
+}
+.filtrar{
+    
+    margin-top: 40px;
+    text-indent: 5px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 15px;
+    font-family: texto;
+    padding: 10px;
+/*Asignamos como elemento en línea y alineado arriba, con margenes,
+ sangría, fuente, tamaño de fuente y un márgen interior*/
+}
+.ordenar_por{
+    display: inline-block;
+    vertical-align: top;
+    width: 280px;
+    padding: 5px;
+    margin-top: -55px;
+    margin-left: 75%;;
+    font-size: 15px;
+/*Asignamos como elemento en línea y alineado arriba, con margenes,
+ sangría, fuente, tamaño de fuente y un márgen interior y exterior*/
+}
+.sudadera1{
+    display: inline-block;
+    vertical-align: top;
+    width: 350px;
+    margin-top: 30px;
+    margin-left: 50px;
+    text-align: center;
+/*Asignamos como texto en línea y alineado arriba, con un tamaño, márgenes y alineacion centrada*/
+}
+.img_sudadera1{
+    width: 300px;
+/*Ponemos un tamaño*/
+    
+}
+.nom_sudadera1{
+    font-family: productos, 'Times New Roman', Times, serif;
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 140%;
+/*Ponemos una fuente, texto justificado, con sangría y tamaño de fuente*/
+}
+.precio_sudadera1{
+    text-align: justify;
+    text-indent: 20px;
+/*Texto justificado y sangría*/
+}
+.sudadera1:hover{
+    display: inline-block;
+    vertical-align: top;
+    width: 400px;
+    margin-top: 30px;
+    margin-left: 50px;
+    text-align: center;de 
+    border: 1px solid black;
+    text-align: center;
+    transition: 50ms;
+    font-size: 140%;
+    box-shadow: 0 4px 4px  black;
+
+/*Asignamos como texto en línea y alineado arriba, con un tamaño,
+ márgenes y alineacion centrada, un borde, una transición y efecto con sombras*/
+}
+.sudadera2{
+    display: inline-block;
+    vertical-align: top;
+    width: 350px;
+    margin-top: 30px;
+    margin-left: 55px;
+    text-align: center;
+    
+/*Asignamos como texto en línea y alineado arriba, con un tamaño, márgenes y alineacion centrada*/
+}
+.img_sudadera2{
+    width: 300px;
+/*Ponemos un tamaño*/
+    
+}
+.nom_sudadera2{
+    font-family: productos, 'Times New Roman', Times, serif;
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 140%;
+/*Ponemos una fuente, texto justificado, con sangría y tamaño de fuente*/
+}
+.precio_sudadera2{
+    text-align: justify;
+    text-indent: 20px;
+/*Texto justificado y sangría*/
+}
+.sudadera2:hover{
+    display: inline-block;
+    vertical-align: top;
+    width: 400px;
+    margin-top: 30px;
+    text-align: center;
+    border: 1px solid black;
+    text-align: center;
+    transition: 50ms;
+    font-size: 140%;
+    box-shadow: 0 4px 4px  black;
+/*Asignamos como texto en línea y alineado arriba, con un tamaño,
+ márgenes y alineacion centrada, un borde, una transición y efecto con sombras*/
+}
+.sudadera3{
+    display: inline-block;
+    vertical-align: top;
+    width: 350px;
+    margin-top: 30px;
+    margin-left: 55 px;
+    text-align: center;
+    
+/*Asignamos como texto en línea y alineado arriba, con un tamaño, márgenes y alineacion centrada*/
+}
+.img_sudadera3{
+    width: 300px;
+/*Ponemos un tamaño*/
+    
+}
+.nom_sudadera3{
+    font-family: productos, 'Times New Roman', Times, serif;
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 140%;
+/*Ponemos una fuente, texto justificado, con sangría y tamaño de fuente*/
+}
+.precio_sudadera3{
+    text-align: justify;
+    text-indent: 20px;
+/*Texto justificado y sangría*/
+}
+.sudadera3:hover{
+    display: inline-block;
+    vertical-align: top;
+    width: 400px;
+    margin-top: 30px;
+    text-align: center;
+    border: 1px solid black;
+    text-align: center;
+    transition: 50ms;
+    font-size: 140%;
+    z-index: auto;
+    box-shadow: 0 4px 4px  black;
+/*Asignamos como texto en línea y alineado arriba, con un tamaño,
+ márgenes y alineacion centrada, un borde, una transición y efecto con sombras*/
+}

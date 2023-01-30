@@ -1,0 +1,78 @@
+.main{
+    margin-top: 50px ;
+/*Asignamos un márgen superior al contenedor*/
+}
+.principal1{
+    margin: 50px ;
+    height: 802px;
+/*Ponemos un margen y un tamaño al contenedor*/
+}
+.img_principal1{
+    display: inline-block;
+    width: 600px;
+    vertical-align: top;
+/*Elemento en línea, alineado arriba y un tamaño*/
+}
+.tit_principal1{
+    display: inline-block;
+    vertical-align: top;
+    text-transform: uppercase;
+    font-family: productos;
+    font-size: 60px;
+    width: 400px;
+    height: 200px;
+    margin-top: 200px;
+    margin-left: 75px;
+/*Elemento en línea alineado arriba, todo en mayusculas, una fuente,
+ un tamaño de fuente y de caja y margenes*/
+}
+.text_principal1{
+    font-family: texto;
+    text-align: left;
+    width: 500px;
+    margin-left: 55%;
+    margin-top: -370px;
+    font-size: 16px;
+    line-height: 30px;
+    color: #0a0101bf;
+/*Añadimso una fuente, alineado a la izquierda, un tamaño, 
+un margen, un tamaño de letra, un color y un espaciado entre lineas*/
+    
+}
+.principal2{
+    margin: 50px ;
+    height: 802px;
+/*Ponemos un margen y un tamaño*/
+}
+.img_principal2{
+    display: inline-block;
+    width: 600px;
+    vertical-align: top;
+    margin-top: -220px;
+    margin-left: 90px;
+/*Lo asignamos como elemento en línea alineado arriba, un tamaño y un márgen */
+}
+.tit_principal2{
+    text-transform: uppercase;
+    font-family: productos;
+    width: 360px;
+    font-size: 30px;
+    margin-top: 200px;
+    margin-left: 70px;
+    letter-spacing: 5px;
+/*Ponemos el texto en mayusculas, con una fuente, un tamaño de texto y de caja, márgenes y espaciado de letras */
+}
+.text_principal2{
+    display: inline-block;
+    vertical-align: top;
+    font-family: texto;
+    text-align: left;
+    width: 460px;
+    margin-left: 6%;
+    margin-top: -5px;
+    font-size: 16px;
+    line-height: 30px;
+    color: #0a0101bf;
+/*Añadimso una fuente, alineado a la izquierda, un tamaño, 
+un margen, un tamaño de letra, un color y un espaciado entre lineas*/
+}
