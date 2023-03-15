@@ -1,0 +1,344 @@
+/*En este modelo de página web no tenemos el box-sizin=border-box porque prefiero no ponerlo para que me cuadren estas medidas */
+/*Le asignamos el scroll para que suba suavemente el boton de subir o los enlaces*/
+html{
+    scroll-behavior: smooth;
+}
+/*Definimos margenes a 0 y asignamos fuente general y color*/
+.body{
+    margin: 0;
+    padding: 0;
+    background-color:white;
+    width: 100%;
+    height: 100%;
+    color: #3b3663;
+    font-family: Rubik;
+}
+a{
+    text-decoration: none;
+}
+/*cabecera*/
+.header{
+    width: 100%;
+    height: 120px;
+}
+/*Caja etiqueta menú*/
+.nav{
+    width: 1271px;
+    height: 120px;
+    margin:0 auto;
+    position: sticky;
+    top: -1;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.519);
+}
+/*Menú*/
+.nav_menu{
+    width: 1071px;
+    height: 107px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0;
+    margin: auto;
+    margin-right: 0;
+}
+/* Caja Logo del menú*/
+.nav_logo{
+    width: fit-content;
+    height: fit-content;
+    margin-top: 30px;
+}
+/*Img logo menu*/
+.logo_img{
+    width: 200px;
+    height: 100%;
+    margin-top: 0;
+}
+/* Enlaces del menú*/
+.nav_enlaces{
+    padding-right: 0px;
+    margin-right: 150px;
+    padding-top: 16px;
+}
+/*Lista del menu*/
+.nav_ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    height: 100%;
+    margin-top: 0;
+}
+.nav_li{
+    justify-content: space-between;
+    margin: auto 11px auto 15px;
+    width: fit-content;
+    height: fit-content;
+}
+.nav_ling:hover{
+    color: #ff7426;
+}
+/*Boton desplegable*/
+.nav_desplegable{
+    margin: auto 0;
+    margin-right: 100px;
+    height: fit-content;
+}
+.desplegable_img{
+    width: 30px;
+    height: 30px;
+    margin-top: 3px;
+}
+/*Main-Section1*/
+.section1{
+    width: 100%;
+    height: 630px;
+}
+/*Article Section1*/
+.article_principal{
+    width: 100%;
+    height: 405px;
+    color: #252a3f;
+    margin-top: 200px;
+}
+/*Caja de info izquierda*/
+.caja_tit{
+    width: 1101px;
+    margin: auto;
+}
+/*Video de type writting*/
+.tit_type_write{
+    width: 350px;
+    height: fit-content;
+    margin: 0;
+    line-height: 0;
+}
+.h1_tit{
+    font-family: Nunito;
+    font-size: 18px;
+}
+.h2_tit{
+    font-size: 40px;
+    font-family: NunitoBold;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.descripcion_tit{
+    font-size: 18px;
+    width: 500px;
+    margin-top: 0;
+}
+.sub_desc_tit{
+    background-color: #ff9900;
+}
+.caja_conocermas{
+    margin-top: 90px;
+}
+.conocermas{
+    width: 140px;
+    border: 1px solid #696687;
+    padding: 15px;
+    color: #252A3F;
+}
+.conocermas:hover{
+    transition: 0.15s;
+    background-color: #6254e7;
+    color: white;
+}
+.img_article_principal{
+    width: 98%;
+    width: 98%;
+    margin: auto;
+}
+/*Caja que contiene la imagen principal*/
+.caja_article_principal{
+    width: 700px;
+    height:478px;
+    position:absolute;
+    z-index: -1;
+    top: 290px;
+    left: 48%; 
+    padding: 0;
+}
+/* Aquí empieza el section 2*/
+.article_servicios{
+    margin: auto;
+    width: 1300px;
+    height: 600px;
+    background: radial-gradient(#F5F7F9 40%,white);
+    padding-top: 35px;
+}
+.article_servicios_h3{
+    font-size: 14px;
+    width: fit-content;
+    margin: 5px auto;
+
+}
+.article_servicios_h2{
+    font-size: 30px;
+    margin: 0 auto;
+    width: fit-content;
+}
+/*Aqui tenemos la caja general de los tripticos*/
+.article_servicios_paneles{
+    display: flex;
+    width: 1200px;
+    margin: auto;
+    justify-content:space-between;
+    margin-top: 30px;
+}
+/*Enlace de los paneles*/
+.enlaces_paneles{
+    width: 18%;
+    margin-top: 25px;
+    height: 360px;
+    padding: 30px;
+    padding-top: 5px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 3px 7px 16px 2px rgba(199,199,199,0.84);
+    flex: 0.23;
+    scroll-behavior: smooth;
+}
+.enlaces_paneles:hover{
+    background-color:rgb(67, 57, 153);
+    color: white;
+    transition: 0.3s;
+    width: 150px;
+    height: 370px;
+}
+.panel_p{
+    font-size: 25px;
+    font-family: Nunito;
+    font-weight: 800;
+    margin-bottom: 35px;
+}
+.panel_img{
+    width: 75px;
+    height: 75px;
+}
+.panel_ul{
+    list-style: none;
+    text-indent: 0;
+    padding: 0;
+    font-size: 12px;
+    font-weight: 800;
+}
+.panel_li{
+    margin: 15px 0;
+}
+.tick_list{
+    width: 10px;
+    height: 10px;
+    font-size: 18px;
+    margin-right: 10px;
+}
+/*Aquí definimos el footer*/
+.footer{
+    width: 100%;
+    background-color:#323B43 ;
+    color: white;
+    max-width: 2400px;
+    margin: auto;
+}
+/*Contenedor para dejar unos margenes centrados en el footer*/
+.contenedor_footer{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+/*Conteneodr de la parte de arriba del footer*/
+.contenedor_logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_logo{
+    width: 60%;
+}
+.logo_movil{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+.contenedor_logo_contacto{
+    display: flex;
+    align-items: center;
+}
+.contacto_info{
+    margin-right: 20px;
+}
+/*Imagenes de las redes sociales*/
+.info_rrss_img{
+    font-size: 25px;
+    width: 25px;
+    height: 25px; 
+    margin: 15px 45px;
+}
+.footer_iconos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+/*Contenedor de la parte intermedia del footer*/
+.footer_contenedor{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+    border-top:1px solid white;
+    padding-top: 35px;
+}
+/*Cada columa del footer*/
+.footer_paneles{
+    width: 22%;
+    padding: 5px;
+    text-align: center;
+}
+.footer_h2{
+    margin-bottom: 25px;
+    text-align: center; 
+}
+.info_p{
+    margin-top: 25px;
+}
+.footer_servicios_ul{
+    list-style: none;
+    padding: 0;
+}
+.servicios_li{
+    margin-top: 15px;
+    
+}
+.info_rrss{
+    color: white;
+}
+.info_rrss:hover{
+    color: orange;
+}
+.nav_subir{
+    width: 50px;
+    height: 50px;
+    border: 2px solid orange;
+    border-radius: 7px;
+    position: fixed;
+    left: 96%;
+    top: 91%;
+}
+/*Definimos el boton de subir*/
+.subir_p{
+    font-size: 80px;
+    color: orange;
+    margin: auto;
+    margin-left: 7px;
+    transition: 1s;
+}
+.nav_subir:hover{
+    color: white;
+    background-color: orange;
+    box-shadow: 3px 7px 12px 2px rgba(199, 199, 199, 0.27);
+}
+.subir_p:hover{
+    color: white;
+}
+.nav_li_actual{
+    color: orange;
+}

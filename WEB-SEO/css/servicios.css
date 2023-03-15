@@ -1,0 +1,55 @@
+/*Tenemos este section que lo utilizamos para reutilar codigo porque es muy similar al otro del style
+este section es el segundo de abajo que contiene información*/
+.section3{
+    background-color: #EEF3F7;
+    height: max-content;
+    padding-bottom: 200px;
+}
+/*Modificamos el margen del articulo del primer section*/
+.article_servicios{
+    margin-top: 70px;
+}
+/*Le damos margen al article del segundo section*/
+.article_section3{
+    padding-top: 100px;
+}
+/*Son cada una de las casillas del segundo section que contienen info*/
+.article_div{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    max-width: 1500px;
+    margin-top: 30px;
+}
+/*Caja del texto de descripcion del titulo*/
+.article_descripcion{
+    width: 800px;
+    margin: auto;
+    margin-top: 30px;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+ /*Caja del texto*/
+.cajas_explicaciones{
+    width: 30%;
+    padding: 25px;
+}
+/*Caja de la imagen de las cajas de explicaciones*/
+.div_img{
+    width: 130px;
+    height: 130px;
+    margin-left: 30%;
+}
+.div_tit{
+    text-align: center;
+    margin: 15px auto;
+    font-size: 20px;
+    width: fit-content;
+}
+.div_p{
+    width: fit-content;
+    font-size: 18px;
+    text-align: justify;
+}

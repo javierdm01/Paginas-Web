@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="../css/contacto.css">
+    <title>SeoWeb</title>
+</head>
+<body class="body">
+    <!--Aqui tenemos la cabecera con un pequeño menú-->
+    <div class="contenedor">
+        <header class="header">
+            <nav class="nav" id="nav">
+                <div class="nav_menu">
+                    <div class="nav_logo">
+                        <a class="nav_ling" href="../index.html"><img class="logo_img" src="../assets/img/POSIBLE LOGO.png" alt="logo"></a>
+                    </div>
+                    <div class="nav_enlaces">
+                        <ul class="nav_ul">
+                            <li class="nav_li"><a href="./conoceme.html" class="nav_ling">CONÓCEME</a></li>
+                            <li class="nav_li"><a href="./servicios.html" class="nav_ling">SERVICIOS</a></li>
+                            <li class="nav_li"><a href="./proyectos.html" class="nav_ling">PROYECTOS</a></li>
+                            <li class="nav_li"><a href="#" class="nav_ling nav_li_actual">CONTACTO</a></li>
+                            
+                        </ul>
+                    </div>
+                </div>
+                <!--Aqui tenems como en todas las páginas el botón de subir-->
+                <div class="nav_desplegable">
+                    <a href="" class="desplegable_enlace"><img src="../assets/img/menu.png" alt="" class="desplegable_img"></a>
+                </div>
+                <a href="#nav" class="nav_subir"><p class="subir_p">^</p></a>
+            </nav>
+        </header>
+        <main class="main">
+            <!--En el main tenemos 2 partes separadas por 2 section-->
+            <section class="section1">
+                <div class="section_caja">
+                    <!--Tenemos aquí 2 articulos que uno es la información y como una explicacion de que contactes-->
+                    <article class="article_principal">
+                        <div class="caja_tit">
+                            <h1 class="h1_tit">CONTACTA CONMIGO</h1>
+                            <h2 class="h2_tit_2">¿Puedo ayudarte en algo?</h2>
+                            <p class="descripcion_tit">
+                                ¿Tienes alguna pregunta?¡Consúltame!
+                            </p>
+                            <p class="descripcion_tit">
+                                Escríbeme y pregúntame lo que necesites sin ningún compromiso.
+                            </p>
+                        </div>
+                    </article>
+                    <!--En este article tenemos el formulario de contacto -->
+                    <article class="article_form">
+                        <div class="caja_form">
+                            <h2 class="h2_tit">Dime que es lo que necesitas</h2>
+                            <form class="form" action="" >
+                                <div class="form_contenedor">
+                                    <div class="form_filas">
+                                        <input class="input_text" placeholder="Nombre*" required type="text" name="nombre" id="">
+                                        <input class="input_text" placeholder="Email*" required type="email" name="email" id="">
+                                    </div>
+                                    <div class="form_filas">
+                                        <input class="input_text" placeholder="Telefono" type="tel" name="tel" id="">
+                                        <select class="input_text" name="pais" id="" required>
+                                            <option selected hidden>Elige un país</option>
+                                            <option>España</option>
+                                            <option>Argentina</option>
+                                            <option>Colombia</option>
+                                            <option>EEUU</option>
+                                            <option>Gibraltar</option>
+                                        </select>
+                                    </div>
+                                    <textarea class="textarea" required name="textarea" id="" cols="40" rows="10" placeholder="Mensaje"></textarea>
+                                    <div class="form_checkbox">
+                                        <input type="checkbox"required name="checkbox" id="checkbox">
+                                        <label class="label" for="checkbox">Acepto la Politica de Privacidad de Datos y el Uso Legal.</label>                                    
+                                    </div>
+                                    <input class="form_enviar" type="submit" src="mailto:daw_javierdiaz@riberadeltajo.es" value="Enviar">
+                                </div>
+                            </form>
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <!--En este section lo que tenemos es un pequeño mapa a la izq de ubicacion y a la derecha un pequeño video colocado de manera paralela en cajas -->
+            <section class="section3">
+                <article class="article_section3">
+                    <h3 class="article_servicios_h3">¿DONDE ESTAMOS?¿COMO LO HACEMOS?</h3>
+                    <h2 class="article_servicios_h2">Para que nos conozcas un poco más</h2>
+                    <div class="caja_mas_info">
+                        <div class="caja_mapa">
+                            <h2 class="tit_mapa">¿Donde Estamos?</h2>
+                            <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1792.5421660877266!2d-4.031011947816854!3d39.87419045091611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s8CFQVXFC%2BM6!5e1!3m2!1ses!2ses!4v1675957167248!5m2!1ses!2ses" &iwloc=1 width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <div class="caja_yt">
+                            <h2 class="tit_mapa">¿Como hacemos las cosas?</h2>
+                            <iframe width="500px" height="300" src="https://www.youtube.com/embed/0lbzmZeS-BY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </main>
+       <!--Aquí tenemos el footer-->
+        <footer class="footer">
+            <div class="contenedor_footer">
+    <!--Este contenedor tenemos la primera parte del footer con logo y contactos-->
+                <div class="contenedor_logo">
+                    <a class="nav_ling" href="../index.html"><img class="footer_logo" src="../assets/img/POSIBLE LOGO.png" alt="logo"></a>
+                    <div class="contenedor_logo_contacto">
+                        <img class="logo_movil" src="../assets/img/movil.png" alt="">
+                        <div class="contacto_info">
+                            <p class="p_correo">diazmolinajavier04@webseo.es</p>
+                            <p class="p_web">www.webseo.com</p>
+                        </div>
+                    </div>
+                </div>
+                <!--En este contenedor tenemos los paneles explicativos de informacion corta y temas importantes-->
+                <div class="footer_contenedor">
+                    <!--Definimos cada panel del footer-->
+                    <div class="footer_paneles">
+                        <h2 class="footer_h2">Sobre mi</h2>
+                        <p class="info_p">Soy Javier Diaz, y he fundado esta start up para ayudarte a crecer tu negocio y optimizar al máximo tus recomendaciones en Internet</p>
+                        <p class="info_p">Me dedico a que tu web se posicione en la mejor posición y te ayudo a crear tu página web al completo para que le saques el máximo rendimiento.</p>
+                    </div>
+                    <div class="footer_paneles">
+                        <h2 class="footer_h2">Servicios</h2>
+                        <ul class="footer_servicios_ul">
+                            <li class="servicios_li"><a href="#" class="info_rrss">Desarrollo Web</a></li>
+                            <li class="servicios_li"><a href="#" class="info_rrss">Consultoría</a></li>
+                            <li class="servicios_li"><a href="#" class="info_rrss">Posicionamiento SEO</a></li>
+                            <li class="servicios_li"><a href="#" class="info_rrss">Google Ads</a></li>
+                            <li class="servicios_li"><a href="#" class="info_rrss">Diseño Tienda Online</a></li>
+                            <li class="servicios_li"><a href="#" class="info_rrss">Creación de base de datos</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer_paneles">
+                        <h2 class="footer_h2">Contenidos</h2>
+                        <p class="footer_p"><a class="info_rrss" href="#">¿Qué es un start up?</a></p>
+                        <p class="footer_p"><a class="info_rrss" href="#">¿Qué es un freelance</a></p>
+                        <p class="footer_p"><a class="info_rrss" href="#">¿Por qué buscar un buen posicionamiento?</a></p>
+                    </div>
+                    <div class="footer_paneles">
+                        <h2 class="footer_h2">Preguntas Frecuentes</h2>
+                        <p class="footer_p"><a class="info_rrss" href="#">¿Cómo podemos contratar los servicios?</a></p>
+                        <p class="footer_p"><a class="info_rrss" href="#">¿Cuanto cuestan vuestro servicios?</a></p>
+                        <p class="footer_p"><a class="info_rrss" href="#">¿Cuanto cuestan vuestro servicios?</a></p>
+                    </div>
+                </div>
+                <div class="footer_iconos">
+                    <a href="http://twitter.com" target="_blank" rel="noopener noreferrer" class="info_rrss"><img class="info_rrss_img" src="../assets/img/twitter.png" alt=""></a>
+                    <a href="http://facebook.com" target="_blank" rel="noopener noreferrer" class="info_rrss"><img class="info_rrss_img" src="../assets/img/facebook.png" alt=""></a>
+                    <a href="http://pinterest.com" target="_blank" rel="noopener noreferrer" class="info_rrss"><img class="info_rrss_img" src="../assets/img/pinterest.png" alt=""></a>
+                    <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer" class="info_rrss"><img class="info_rrss_img" src="../assets/img/linkedin.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+</html>
