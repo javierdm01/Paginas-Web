@@ -1,0 +1,16 @@
+@font-face {
+    font-family: RobotoLight;
+    src: url(../assets/fonts/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: Pluto;
+    src: url(../assets/fonts/Pluto\ Regular.otf);
+}
+@font-face {
+    font-family: PlutoHeavy;
+    src: url(../assets/fonts/Pluto\ Heavy.otf);
+}
+@font-face {
+    font-family: PlutoBold;
+    src: url(../assets/fonts/Pluto\ Bold.otf);
+}
