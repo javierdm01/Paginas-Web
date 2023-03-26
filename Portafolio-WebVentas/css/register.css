@@ -1,0 +1,29 @@
+.inputs_panels{
+    display: flex;
+    flex-direction: column;
+}
+.login_panel{
+    width: 60rem;
+    height: 700px;
+    padding-top: 35px;
+}
+.input_label{
+    font-size: 18px;
+}
+.div_panels{
+    display: flex;
+    justify-content: space-between;
+    height: 650px;
+    width: 100%;
+    height: fit-content;
+}
+.input_select{
+    height: 50px;
+}
+.option_selected{
+    color: grey;
+}
+.box_checkbox{
+    margin-top: 50px;
+}
+
