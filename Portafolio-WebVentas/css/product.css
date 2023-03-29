@@ -1,0 +1,92 @@
+.section_intro{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    max-width: 2000px;
+    margin: auto;  
+    height: 500px;
+    background-color: transparent;
+}
+.article_img_intro{
+    width: 50%;
+    background-image: url(../assets/img/persona.png);
+    background-repeat: no-repeat;
+    margin-left: 150px;
+    z-index: 1;
+    height: 650px
+}
+.intro_subtit{
+    font-family: Pluto;
+    text-align: right;
+    margin-right: 29px;
+    margin-bottom: 20px;
+}
+.intro_tit{
+    color: #fff031;
+}
+.intro_link{
+    background-color: #4842C1;
+}
+.background_section{
+    background-color:#291d6f;
+    height: 200px;
+    position: relative;
+    z-index: 0;
+}
+.section_explain{
+    height: 1000px;
+    background-color: white;
+    padding-top: 80px;
+}
+.tit_explain{
+    font-size: 28px;
+    font-family: PlutoHeavy;
+    color: #1b1851;
+    text-align: center;
+    line-height: 40px;
+}
+.explain_flexbox{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    color: #1B1851;
+}
+.box_search{
+    position: static;
+    width: 550px;
+    height: 540px;
+    margin-left: 140px;
+}
+.select_pointers{
+    color: #1B1851;
+}
+.desc_obj{
+    color: #1B1851;
+}
+.box_input{
+    margin-left: -95px;
+}
+.search_icon{
+    color: #1B1851;
+}
+.subtit_exp_box{
+    font-size: 23px;
+    font-family: Pluto;
+    width: 190px;
+    line-height: 80px;
+    margin-left: 55%;
+}
+.tit_exp_box{
+    font-family: PlutoHeavy;
+    font-size: 28px;
+    margin-left: 20%;
+    width: 380px;
+    text-align: right;
+}
+.desc_exp_box{
+    width: 490px;
+    font-family: Roboto;
+    margin-top: 55px;
+    font-size: 17px;
+    text-align: right;
+}

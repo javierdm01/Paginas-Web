@@ -1,0 +1,88 @@
+.body{
+    background: rgb(27,24,81);
+    background: linear-gradient(0deg, rgba(27,24,81,1) 0%, rgba(45,33,115,1) 100%);
+}
+.intro_tit{
+    margin-top: 70px;
+    text-align: right;
+    margin-left: 200px;
+}
+.header{
+    z-index: 2;
+    background-color: transparent;
+}
+.intro_desc{
+    text-align: right;
+}
+.section_intro{
+    height: 700px;
+    width: fit-content;
+    margin-left: 10%;
+}
+.section_platforms{
+    background-color: white;
+    color: #1B1851;
+    padding-top: 120px;
+}
+.article_img_intro{
+    background-image: url(../assets/img/back_pc.png);
+    background-size: contain;
+    position: absolute;
+    width: 1000px;
+    top: 0;
+    right: 0;
+    left: 30%;
+    z-index: -1;
+    background-position: center right;
+}
+.flex_desc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    height: 250px;
+}
+.tr_platforms{
+    margin-top: 55px;
+    border-spacing: 105px;
+}
+.td_platforms{
+    border-spacing: 105px;
+    text-align: center;
+}
+.img_platforms{
+    width: 300px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.col1{
+    background-color:#4841C2 ;
+}
+.col2{
+    background-color: #FFF031;
+}
+.col3{
+    background-color: #1B1851;
+}
+.desc_platforms{
+    width: 300px;
+    height: 125px;
+    margin: auto;
+}
+.show_more{
+    width: 150px;
+    margin-top: 100px;
+    margin: auto;
+    background-color: #4841C2;
+    color: white;
+}
+.show_more:hover{
+    background-color: #FFF031;
+    color: #4841C2;
+}
+.table{
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+}

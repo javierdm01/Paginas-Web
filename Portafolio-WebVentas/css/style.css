@@ -49,14 +49,16 @@
     width: 145px;
 }
 .ul_nav{
-    width: fit-content;
     display: flex;
+    justify-content: space-between;
     padding: 0;
     list-style: none;
+    width: 620px;
 }
 .li_nav{
     margin-right: 15px;
     text-indent: 0;
+    text-transform: uppercase;
 }
 .link_nav:hover{
     color: #fff031;
@@ -64,9 +66,8 @@
 .link_nav{
     color: white;
     text-decoration: none;
+    
 }
-
-
 .div_search{
     position: relative;
 }

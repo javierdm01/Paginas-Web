@@ -1,0 +1,154 @@
+.body{
+    background-color:  rgb(27,24,81);
+}
+.section_tit_free{
+    border: 1px solid #33268c;
+    margin-top: 0;
+    height: 500px;
+}
+.article_free{
+    height: 350px;
+}
+.header{
+    margin-bottom: 0;
+}
+.tit_free{
+    text-align: center;
+    color: #fff031;
+    font-family: PlutoHeavy;
+    margin-top: 100px;
+    font-size: 36px;
+    margin-bottom: 55px;
+}
+.box_month{
+    margin: auto;
+    display: flex;
+    width: 250px;
+    height: 45px;
+    border-radius: 35px;
+    justify-content: space-between;
+    font-family: Roboto;
+    font-weight: bold;
+    background-color: #4841C2;
+}
+.p_month{
+    margin: auto;
+    padding-top: 8px;
+    text-align: center;
+    background-color: white;
+    width: 110px;
+    border-radius: 35px;
+    height: 38px;
+    color: #4841C2;
+}
+.p_year{
+    margin-left: 0;
+    background-color: #4841C2;
+    color: #6b6bf7;
+}
+.section_boxes{
+    background-color: white;
+    color: #4841C2;
+    height: 500px;
+}
+.article_boxes{
+    margin: auto;
+    position: relative;
+    width: 100%;
+    max-width: 1500px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: RobotoLight;
+}
+.plan_box{
+    width:280px;
+    margin: 0 15px;
+    height: 545px;
+}
+.subplan_box{
+    position: absolute;
+    background-color: white;
+    width:280px;
+    height: 545px;
+    top: -150px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0px 4px 20px rgba(27,24,81,.12);
+}
+.tit_plan{
+    color: #33268c;
+    font-size: 27px;
+    font-weight: bold;
+    font-family: Pluto;
+    margin-top: 55px;
+    margin-bottom: 15px;
+}
+.tit_pro{
+    margin-top: 15px;
+}
+.plan_pro{
+    border: 3px solid #5243c2;
+    height: 575px;
+    top:-175px
+}
+.list_check{
+    margin-left: 15px;
+    color: #33268c;
+    font-size: 15px;
+}
+.desc_tit_plan{
+    font-size: 18px;
+}
+.p_popular{
+    background-color:#fff031 ;
+    width: fit-content;
+    font-size: 12px;
+    margin: auto;
+    font-family: Pluto;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-top: 15px;
+}
+.price_plan{
+    font-size: 32px;
+    margin-top: 30px;
+    font-family: RobotoThin;
+    margin-bottom: 35px;
+}
+.link_plan{
+    margin-bottom: 30px;
+    padding: 15px 12px;
+    font-size: 15px;
+}
+.link_plan:hover{
+    background-color: #33268c;
+    color: white;
+    border: none;
+    transition: 0.5s;
+}
+.request_box{
+    margin: auto;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #848199;
+    width: 80%;
+    color: #848199;
+    margin-bottom: 35px;
+}
+.ul_plan{
+    list-style: none;
+    margin: auto;
+}
+.li_plan{
+    text-align: center;
+}
+.plan_contactanos{
+    background-color: transparent;
+    border: 2px solid #33268c;
+    color: #33268c;
+}
+.footer{
+    margin-top: 550px;
+}
